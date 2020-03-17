@@ -5,3 +5,12 @@
 # 2.自定义一个控件，还是通过异步的方式下载所有图片。
 # 3.还是使用原生的控件，对群图像进行合并后生成一个新的图像，原后进行缓存。将合并算法抽象成接口。
 
+![image](./screenshot/1.png)
+![image](./screenshot/2.png)
+![image](./screenshot/3.png)
+![image](./screenshot/4.png)
+![image](./screenshot/5.png)
+![image](./screenshot/6.png)
+![image](./screenshot/7.png)
+![image](./screenshot/8.png)
+![image](./screenshot/9.png)
