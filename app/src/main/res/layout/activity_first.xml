@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/shape_gray_border"
+        android:divider="@drawable/shape_divide"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@drawable/shape_divide"
+            android:gravity="center_horizontal"
+            android:showDividers="middle"
+            android:weightSum="3">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@drawable/shape_divide"
+            android:gravity="center_horizontal"
+            android:showDividers="middle"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/iv_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_five"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_six"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@drawable/shape_divide"
+            android:gravity="center_horizontal"
+            android:showDividers="middle"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/iv_seven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_eight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_nine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="头像显示数量："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_num"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/shape_gray_border"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="个"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>
